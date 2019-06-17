@@ -64,6 +64,7 @@ class Home extends Component {
     }
 
     changeNewPost = e => {
+        console.log("Here");
         let newPost = this.state.newPost;
         let name = e.target.id;
         newPost[name] = e.target.value;
